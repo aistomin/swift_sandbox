@@ -2,8 +2,9 @@
 //  ViewController.swift
 //  FoodTracker
 //
-//  Created by andrej on 22/06/16.
-//  Copyright © 2016 rising. All rights reserved.
+//  @date 22.06.2016
+//  @author Andrei Istomin (andrej.istomin.ikeen@gmail.com)
+//  @copyright © 2016 rising. All rights reserved.
 //
 
 import UIKit
@@ -14,12 +15,4 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-
