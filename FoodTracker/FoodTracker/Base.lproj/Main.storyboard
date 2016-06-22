@@ -43,7 +43,6 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="clN-mV-Mb1" secondAttribute="trailing" constant="385" id="3cp-n9-uQK"/>
                                     <constraint firstItem="clN-mV-Mb1" firstAttribute="leading" secondItem="o2G-sH-L01" secondAttribute="leading" id="9yf-ZO-kg7"/>
-                                    <constraint firstItem="clN-mV-Mb1" firstAttribute="top" secondItem="QsK-SK-T6x" secondAttribute="bottom" constant="12" id="NLE-XK-ui7"/>
                                     <constraint firstAttribute="trailing" secondItem="clN-mV-Mb1" secondAttribute="trailing" id="Rns-jw-Wg3"/>
                                     <constraint firstItem="clN-mV-Mb1" firstAttribute="leading" secondItem="o2G-sH-L01" secondAttribute="leading" id="gLT-Wl-KdV"/>
                                 </constraints>
@@ -58,7 +57,7 @@
                     </view>
                     <connections>
                         <outlet property="nameLabel" destination="QsK-SK-T6x" id="iU3-GO-nlJ"/>
-                        <outlet property="nameTextField" destination="QsK-SK-T6x" id="42D-o8-af6"/>
+                        <outlet property="nameTextField" destination="clN-mV-Mb1" id="lfk-Sw-UA9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
