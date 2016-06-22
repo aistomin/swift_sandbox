@@ -2,7 +2,6 @@
 //  FoodTrackerTests.swift
 //  FoodTrackerTests
 //
-//  @date 22.06.2016
 //  @author Andrei Istomin (andrej.istomin.ikeen@gmail.com)
 //  @copyright © 2016 rising. All rights reserved.
 //
@@ -33,5 +32,4 @@ class FoodTrackerTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }
