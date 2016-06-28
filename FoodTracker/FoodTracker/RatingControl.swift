@@ -2,8 +2,8 @@
 //  RatingControl.swift
 //  FoodTracker
 //
-//  Created by andrej on 28/06/16.
-//  Copyright © 2016 rising. All rights reserved.
+//  @author Andrei Istomin (andrej.istomin.ikeen@gmail.com)
+//  @copyright © 2016 rising. All rights reserved.
 //
 
 import UIKit

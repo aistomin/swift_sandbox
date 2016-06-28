@@ -14,6 +14,7 @@
 		776F7C7C1D1AD86C00493D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776F7C7A1D1AD86C00493D8E /* LaunchScreen.storyboard */; };
 		776F7C871D1AD86C00493D8E /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F7C861D1AD86C00493D8E /* FoodTrackerTests.swift */; };
 		778F69BF1D22EF3E007682D0 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778F69BE1D22EF3E007682D0 /* RatingControl.swift */; };
+		778F69C11D22FAA2007682D0 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778F69C01D22FAA2007682D0 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		776F7C861D1AD86C00493D8E /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		776F7C881D1AD86C00493D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		778F69BE1D22EF3E007682D0 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		778F69C01D22FAA2007682D0 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				776F7C711D1AD86C00493D8E /* AppDelegate.swift */,
 				776F7C731D1AD86C00493D8E /* ViewController.swift */,
 				776F7C751D1AD86C00493D8E /* Main.storyboard */,
+				778F69C01D22FAA2007682D0 /* Meal.swift */,
 				776F7C781D1AD86C00493D8E /* Assets.xcassets */,
 				778F69BE1D22EF3E007682D0 /* RatingControl.swift */,
 				776F7C7A1D1AD86C00493D8E /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778F69C11D22FAA2007682D0 /* Meal.swift in Sources */,
 				776F7C741D1AD86C00493D8E /* ViewController.swift in Sources */,
 				778F69BF1D22EF3E007682D0 /* RatingControl.swift in Sources */,
 				776F7C721D1AD86C00493D8E /* AppDelegate.swift in Sources */,
