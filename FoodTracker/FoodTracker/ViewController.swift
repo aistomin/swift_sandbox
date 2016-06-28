@@ -18,6 +18,8 @@ class ViewController: UIViewController, UITextFieldDelegate,
     
     @IBOutlet weak var photoImageView: UIImageView!
     
+    @IBOutlet weak var ratingControl: RatingControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         nameTextField.delegate = self
@@ -47,10 +49,7 @@ class ViewController: UIViewController, UITextFieldDelegate,
         dismissViewControllerAnimated(true, completion: nil)
     }
     
-    // MARK: Actions
-    @IBAction func setDefaultLabelText(sender: UIButton) {
-        nameLabel.text = "Default Text"
-    }
+    // MARK: Actions
     
     @IBAction func selectImageFromPhotoLibrary(sender: UITapGestureRecognizer) {
         nameTextField.resignFirstResponder()
