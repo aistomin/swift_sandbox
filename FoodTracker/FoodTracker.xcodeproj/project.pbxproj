@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7735C6101D28061E0039A965 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7735C60F1D28061E0039A965 /* MealTableViewController.swift */; };
 		776F7C721D1AD86C00493D8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F7C711D1AD86C00493D8E /* AppDelegate.swift */; };
 		776F7C741D1AD86C00493D8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F7C731D1AD86C00493D8E /* ViewController.swift */; };
 		776F7C771D1AD86C00493D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776F7C751D1AD86C00493D8E /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7735C60F1D28061E0039A965 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		776F7C6E1D1AD86C00493D8E /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		776F7C711D1AD86C00493D8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		776F7C731D1AD86C00493D8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				776F7C711D1AD86C00493D8E /* AppDelegate.swift */,
 				776F7C731D1AD86C00493D8E /* ViewController.swift */,
 				776F7C751D1AD86C00493D8E /* Main.storyboard */,
+				7735C60F1D28061E0039A965 /* MealTableViewController.swift */,
 				778F69C01D22FAA2007682D0 /* Meal.swift */,
 				776F7C781D1AD86C00493D8E /* Assets.xcassets */,
 				778F69BE1D22EF3E007682D0 /* RatingControl.swift */,
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7735C6101D28061E0039A965 /* MealTableViewController.swift in Sources */,
 				778F69C11D22FAA2007682D0 /* Meal.swift in Sources */,
 				776F7C741D1AD86C00493D8E /* ViewController.swift in Sources */,
 				778F69BF1D22EF3E007682D0 /* RatingControl.swift in Sources */,
