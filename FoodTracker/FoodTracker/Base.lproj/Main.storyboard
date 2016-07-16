@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MealTableViewCell" rowHeight="90" id="dC4-lk-KD3" customClass="MealTableViewCell">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MealTableViewCell" rowHeight="90" id="dC4-lk-KD3" customClass="MealTableViewCell" customModule="FoodTracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="600" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dC4-lk-KD3" id="g8A-gY-58u">
@@ -29,7 +29,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8l-xy-BYI">
                                             <rect key="frame" x="102" y="8" width="490" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="683-MA-tzD" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
@@ -39,9 +39,9 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="nameLabel" destination="T8l-xy-BYI" id="Oyb-25-FDF"/>
-                                    <outlet property="photoImageView" destination="ucI-OB-ZA4" id="tfD-m4-iMP"/>
-                                    <outlet property="ratingControl" destination="683-MA-tzD" id="HXC-8k-JXM"/>
+                                    <outlet property="nameLabel" destination="T8l-xy-BYI" id="hTP-cw-B83"/>
+                                    <outlet property="photoImageView" destination="ucI-OB-ZA4" id="DiI-Cq-Rbp"/>
+                                    <outlet property="ratingControl" destination="683-MA-tzD" id="z0H-q4-ggG"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -73,7 +73,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QsK-SK-T6x">
                                         <rect key="frame" x="237" y="0.0" width="87" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="175" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="clN-mV-Mb1">
