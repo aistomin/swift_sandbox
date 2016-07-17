@@ -20,9 +20,14 @@ class ViewController: UIViewController, UITextFieldDelegate,
     
     @IBOutlet weak var ratingControl: RatingControl!
     
+    @IBOutlet weak var saveButton: UIBarButtonItem!
+    
+    var meal: Meal?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         nameTextField.delegate = self
+        checkValidMealName()
     }
     
     // MARK: UITextFieldDelegate
@@ -31,8 +36,18 @@ class ViewController: UIViewController, UITextFieldDelegate,
         return true
     }
     
+    func textFieldDidBeginEditing(textField: UITextField) {
+        saveButton.enabled = false
+    }
+    
     func textFieldDidEndEditing(textField: UITextField) {
-        nameLabel.text = textField.text
+        checkValidMealName()
+        navigationItem.title = textField.text
+    }
+    
+    func checkValidMealName() {
+        let text = nameTextField.text ?? ""
+        saveButton.enabled = !text.isEmpty
     }
     
     // MARK: UIImagePickerControllerDelegate
@@ -49,8 +64,17 @@ class ViewController: UIViewController, UITextFieldDelegate,
         dismissViewControllerAnimated(true, completion: nil)
     }
     
-    // MARK: Actions
+    // MARK: Navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if saveButton === sender {
+            let name = nameTextField.text ?? ""
+            let photo = photoImageView.image
+            let rating = ratingControl.rating
+            meal = Meal(name: name, photo: photo, rating: rating)
+        }
+    }
     
+    // MARK: Actions
     @IBAction func selectImageFromPhotoLibrary(sender: UITapGestureRecognizer) {
         nameTextField.resignFirstResponder()
         let imagePickerController = UIImagePickerController()
