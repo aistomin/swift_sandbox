@@ -112,7 +112,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="rff-Lw-NcS">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="r7A-Oi-v0b"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="r7A-Oi-v0b">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="aIo-VE-Ao1"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="Lkq-as-t2s">
                             <connections>
                                 <segue destination="5GG-4y-5NR" kind="unwind" unwindAction="unwindToMealList:" id="d1o-UR-jmU"/>

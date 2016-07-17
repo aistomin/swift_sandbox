@@ -74,6 +74,10 @@ class ViewController: UIViewController, UITextFieldDelegate,
         }
     }
     
+    @IBAction func cancel(sender: UIBarButtonItem) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     // MARK: Actions
     @IBAction func selectImageFromPhotoLibrary(sender: UITapGestureRecognizer) {
         nameTextField.resignFirstResponder()
